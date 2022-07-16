@@ -63,7 +63,7 @@ const TextEditor = () => {
 
   return (
     <div className="container">
-      <div id="text-input" contentEditable="true" onChange={clickHandler}></div>
+      <div id="text-input" contentEditable="true"></div>
       <div
         className="options"
         style={{ marginLeft: "1rem" }}
@@ -112,7 +112,7 @@ const TextEditor = () => {
         <select id="formatBlock" className="adv-option-button">
           <option value="H1">H1</option>
           <option value="H2">H2</option>
-          <option value="H3">H3</option>
+          <option value="H3" selected>H3</option>
           <option value="H4">H4</option>
           <option value="H5">H5</option>
           <option value="H6">H6</option>
